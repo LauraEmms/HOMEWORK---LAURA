@@ -198,7 +198,7 @@ f). How will app comply with GDPR? For example, how will customers' sensitive in
 **TOOLS TO CONSIDER (TO BUILD APP)**
 <br>
 
-a). JavaScript, CSS, HTML: to build an attractive UI to show customers available menu options and allow them to add items to a basket. JS, CSS and HTML will also to build the interface for what the admin/team memer sees when orders come through
+a). JavaScript, CSS, HTML: to build an attractive UI to show customers available menu options and allow them to add items to a basket. JS, CSS and HTML will also to build the interface for what the admin/team member sees when orders come through
 <br>
 
 b). SQL: to collect and store customer information like order ID's and Customer ID's in a database and add constraints to ensure that the database can only have one customer ID and Order ID. Also, SQL could be used to record ID's for the food items and take stock of item availability
