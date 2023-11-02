@@ -133,7 +133,7 @@ Source: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-7766
 Who are user personas that will be using the app?
 <br>
 
-a). Admin user/Restaurant team member: take receipt of orders & relays to kitchen 
+a). Admin user/Restaurant team-member: this person will take receipt of the orders 
 <br>
 
 b). Customer: places an order via the app and should be able to view all menu options available
