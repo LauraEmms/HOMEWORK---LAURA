@@ -2,8 +2,9 @@
 <br>
 
 ## 1.1 What does SDLC stand for?
-SDLC stands for Software Development Life Cycle. Adopted as a best practice by software developers, SDLC serves as a "framework" for breaking down the development process into more digestible and distinct phases. The phases of the Software Development Life Cycle are: Planning, Analysis, Design, Implementation and Testing & Integration, and maintenance.
+SDLC stands for Software Development Life Cycle. Adopted as a best practice by software developers, SDLC serves as a "framework" for breaking down the development process into more digestible and distinct phases. The phases of the Software Development Life Cycle are: Planning, Checking Feasability of Requirements and Analysis, Design, Coding or Implementation, Testing, Deployment, and Maintenance.
 <br>
+Source: https://www.betsol.com/blog/7-stages-of-sdlc-how-to-keep-development-teams-running/
 <br>
 
 ## 1.2. What exception is thrown when you divide a number by 0?
