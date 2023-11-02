@@ -208,4 +208,7 @@ See below for an image which I've designed, outlining the above condiderations r
 <br>
 
 [Process_Design_Image.pdf](https://github.com/LauraEmms/HOMEWORK---LAURA/files/13237643/Process_Design_Image.pdf)
+<br>
+
+[Alt text: image shows the connection between the UI used by customers and admin/team members using JavaScript, Python which computes backend logic, and Python interacting with a database using a program such as SQL, with the primary keys identified as Order_ID for the customer database and Item_ID for the meal database.]
 
