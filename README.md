@@ -106,7 +106,7 @@ git branch -d [branch name]: deletes a branch
 <br>
 git checkout -b [branch name]: create a new branch and switch to it
 <br>
-Source: https://git-scm.com/docs 
+Source: https://github.com/joshnh/Git-Commands 
 
 ## 1.9 Design a restaurant ordering system.
 **You do not need to write code, but describe a high-level approach:**
