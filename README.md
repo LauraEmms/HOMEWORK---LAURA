@@ -127,29 +127,33 @@ git checkout -b [branch name]: create a new branch and switch to it
 
 Who are user personas that will be using the app?
 <br>
-a). Admin user/Restaurant team member: take receipt of orders & relays to kitchen
+
+a). Admin user/Restaurant team member: take receipt of orders & relays to kitchen 
+<br>
+
 b). Customer: places an order via the app and should be able to view all menu options available
+<br>
 <br>
 
 **KEY FEATURES FOR THE SYSTEM (REQUIREMENTS)**
 <br>
 
-a). Every customer who has the app should be able to submit an order, provided conditions are met e.g., payment successful and item is in stock
+a). Every customer who has the app should be able to submit an order, provided conditions are met e.g., payment is successful and the menu item they'd like to order is in stock
 <br>
 
-b). For customers to see whether home-delivery is available within their catchment area
+b). Customers should be able to see whether home-delivery is available within their catchment area, with a pop-up to notify them if it isn't
 <br>
 
-c). For customers to see all available menu options
+c). Customers should be able to see all available menu options, with items not available greyed out
 <br>
 
-d). For customers to see when restaurant is closed with an in-app message that states the restaurant is no longer taking orders, or when the restaurant is too busy to take online order requests during certain periods, prompting the user to return back later
+d). Customers should be able to see when the restaurant is closed with an in-app message that states the restaurant is no longer taking orders. Customers should also be notified when the restaurant is too busy to take online order requests during certain periods, prompting the customer to return back to the app later
 <br>
 
-e). For customers to see the total of their selected menu items in their basket
+e). Customers should be able to see the total sum of their selected menu items in their basket
 <br>
 
-f). For customer to receive in-app conformation of their order, with their corresponding order number
+f). `customers should also recieve an in-app conformation of their order, with their corresponding order number
 <br>
 <br>
 
@@ -159,32 +163,32 @@ f). For customer to receive in-app conformation of their order, with their corre
 g). For customers to see any available discount options or exclusive offers on particular items
 <br>
 
-h). Email notification of order with live/realtime-tracker
+h). Email notification sent to the cutomer, including a live/realtime-tracker with estimated arrival for home deliveries 
 <br>
 
-i). Time-out period/pop up to show when restaurant is closed, or is no longer serving during busy periods
+i). Time-out period/a pop up to show when restaurant is closed, or is no longer serving during busy periods
 <br>
 
-j). Pop up to show when user takes too long to input bank/card details, and page has timed out
+j). Pop up to show when user takes too long to input bank/card details, and the page has timed out
 <br>
 <br>
 
 **COMMON PROBLEMS (EDGE CASES LIKE APP CAPACITY, ETC)**
 <br>
 
-a). How are menu items displayed when they are out of stock? How will app be updated in timely manner to prevent customer from ordering item that is no longer in stock
+a). How are menu items updated when they are out of stock? How will app be updated in timely manner to prevent customer from ordering item that is no longer in stock
 <br>
 
-b). Restaurant only open between certain hours: need to know opening time and closing time of restaurant. How will the app decline orders from customers who are trying to place orders during out-of-hours?
+b). The restaurant will only be open between certain hours: as such, we will need to know opening time and closing time of restaurant. How will the app decline orders from customers who are trying to place orders during out-of-hours?
 <br>
 
 c). How will the app handle bounces if a customers' payment method fails?
 <br>
 
-d). How will the app ensure that no duplicate orders are made? E.g., what will be the prevention methods in place to prevent user submitting same order accidentally due to slow page load, and thus payment being taken twice?
+d). How will the app ensure that no duplicate orders are made? E.g., what prevention methods will be put in place to prevent the user from submitting the same order accidentally due to slow page load, and thus payment being taken twice?
 <br>
 
-e). Capacity: how many people can app accept orders from at any one time? What is the absolute limit before the app or server crashes? And how will app save/recover information in the case that it does crash?
+e). Capacity: how many people can the app accept orders from at any one time? What is the absolute limit before the app/server crashes? And how will app save/recover information in the case that it does crash?
 <br>
 
 f). How will app comply with GDPR? For example, how will customers' sensitive information like address and bank details be protected? And how will information be safely stored and discarded when no longer required?
@@ -194,16 +198,16 @@ f). How will app comply with GDPR? For example, how will customers' sensitive in
 **TOOLS TO CONSIDER (TO BUILD APP)**
 <br>
 
-a). JavaScript, CSS, HTML: to build UI to show customers available options and allow them to input their orders, and also to build the interface for what the admin/team memer sees when orders come through
+a). JavaScript, CSS, HTML: to build an attractive UI to show customers available menu options and allow them to add items to a basket. JS, CSS and HTML will also to build the interface for what the admin/team memer sees when orders come through
 <br>
 
-b). SQL: to collect and store customer information like order ID's, Customer ID's in a database and add constraints to ensure that the DB can only have one customer ID and Order ID. Also, SQL could be used to record ID's for the food items and take stock of item availability
+b). SQL: to collect and store customer information like order ID's and Customer ID's in a database and add constraints to ensure that the database can only have one customer ID and Order ID. Also, SQL could be used to record ID's for the food items and take stock of item availability
 <br>
 
-c). Python: backend logic that sits between UI and the database, where you can send requests and get a response - here we'd incorporate components that talk to the database and an API, if one exists
+c). Python: to execute backend logic that sits between the UI and the database, where you can send requests and get a response. Using Python we could incorporate components that talk to the database and an API, if one exists
 <br>
 
-See below for an image which I've designed, outlining the above condiderations regarding tools required, and how they would interlink.
+See below for an image which I've created, outlining the above condiderations regarding tools required, and how they would interlink.
 <br>
 
 [Process_Design_Image.pdf](https://github.com/LauraEmms/HOMEWORK---LAURA/files/13237643/Process_Design_Image.pdf)
