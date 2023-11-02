@@ -87,7 +87,7 @@ The steps involved in using a branch are as follows:
 6. Push the branch up to the forked version
 7. Submit a 'pull request' on a platform such as GitHub to merge the branch to the main branch
 8. Once the pull request is merged (or closed), the branch <branch_name> can be deleted from the forked
-repository and also on your local repository (computer)
+repository and can also be deleted from your local repository (computer)
 <br>
 
 The git command: 'git branch' allows a developer to list, create, rename and delete a branch.
