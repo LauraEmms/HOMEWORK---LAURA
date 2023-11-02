@@ -118,7 +118,7 @@ git checkout -b [branch name]: create a new branch and switch to it
 **ONLINE ORDERING SYSTEM**
 <br>
 
-*Case Study: Create an app where customers can order choice of meal from restaurant.“*
+*Case Study: Create an app where customers can order choice of meal from restaurant.*
 <br>
 <br>
 
