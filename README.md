@@ -12,7 +12,7 @@ An arithmetic exception: ZeroDivisionError (in Python)
 <br>
 
 ## 1.3 What is the git command that moves code from the local repository to the remote repository?
-The git push command. This command moves code (your local commits) from your local repository to a remote repository.
+The git push command. This command exports local commits from your local repository to a remote repository.
 <br>
 <br>
 
