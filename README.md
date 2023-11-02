@@ -32,7 +32,7 @@ what has been achieved, tasks that are to be tackled in the week, and any obstac
 team discussions about the priority of tasks for the upcoming sprint.
 <br>
 
-b) Removing blockers: the Scrum Master helps the team by mitigating and eliminating internal andexternal blockers through implementing process or workflow improvements.
+b) Removing blockers: the Scrum Master helps the team by mitigating and eliminating internal and external blockers through implementing process or workflow improvements.
 <br>
 <br>
 
