@@ -75,6 +75,9 @@ In Git, a branch is stored as a reference to a commit and represents a new line 
 
 If you are happy with your code, you can merge the (head) branch into the (base) branch using a 'pull request'. If successful, the pull request is merged (or closed) and the (head) branch can be deleted.
 <br>
+Source: https://www.atlassian.com/git/tutorials/using-branches
+<br>
+Source: https://uoftcoders.github.io/studyGroup/lessons/git/branches/lesson/ 
 
 The steps involved in using a branch are as follows:
 <br>
@@ -87,7 +90,8 @@ The steps involved in using a branch are as follows:
 6. Push the branch up to the forked version
 7. Submit a 'pull request' on a platform such as GitHub to merge the branch to the main branch
 8. Once the pull request is merged (or closed), the branch <branch_name> can be deleted from the forked
-repository and can also be deleted from your local repository (computer)
+repository and can also be deleted from your local repository (computer) <br>
+Source: https://uoftcoders.github.io/studyGroup/lessons/git/branches/lesson/
 <br>
 
 The git command: 'git branch' allows a developer to list, create, rename and delete a branch.
